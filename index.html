@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function hello(){
+            var x=document.getElementById("wap");
+            x.style.color="red";
+        }
+        function world(){
+            var x=document.getElementById("wap");
+            x.style.color="white";
+        }
+    </script>
+    <style>
+        button onclick="world()"{
+            margin-left: 200px;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="wap">wap institue</h1>
+    <button onclick="hello()">click me to change the color of text</button>
+    <button onclick="world()">click me to change the color of text</button>
+
+</body>
+</html>
